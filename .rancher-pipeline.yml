@@ -7,10 +7,4 @@ stages:
       tag: diagon/peer1
       pushRemote: true
       registry: 127.0.0.1:34533
-- name: deploy
-  steps:
-  - applyYamlConfig:
-      path: ./deployment.yaml
-  - applyYamlConfig:
-      path: ./deployment.yaml
 timeout: 60
